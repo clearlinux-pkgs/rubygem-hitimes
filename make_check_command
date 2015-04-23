@@ -1,0 +1,1 @@
+pushd %{buildroot}%{gem_dir}/gems/hitimes-1.2.2 && ruby -I.:lib:spec -e 'Dir.glob "./spec/*spec.rb", &method(:require)' && popd
